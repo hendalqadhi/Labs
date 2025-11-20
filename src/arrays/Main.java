@@ -5,7 +5,7 @@ import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("test");
+        //System.out.println("test");
          int numbers[]={1,2,3,4,5};
          int nums[]= new int[4];
 //methods for display
