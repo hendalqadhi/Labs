@@ -5,19 +5,23 @@ import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
-        //System.out.println("test");
-         int numbers[]={1,2,3,4,5};
-         int nums[]= new int[4];
-//methods for display
-         //Traditional loop
-       for (int i=0;i<numbers.length;i++)
-            System.out.println("Index"+"["+i+"]"+numbers[i]);
-//for each
-        for(int num :numbers)
-            System.out.println(num);
+        // System.out.println("test");
+         //array with values
+      //  int numbers[]={1,2,3,4,5};
+
+        //rray with default values (0)
+        int nums[]= new int[5];
+
+//obj for using the methods
+         Arrayss array=new Arrayss();
+         array.input(nums);
+         array.update(nums,0,0);
+         array.delete(nums,2);
+         array.Travesal1(nums);
+
         //to string
-        System.out.println(Arrays.toString(numbers));
-        System.out.println(Arrays.toString(nums));
+        //System.out.println(Arrays.toString(numbers));
+       // System.out.println(Arrays.toString(nums));
 
 
 
