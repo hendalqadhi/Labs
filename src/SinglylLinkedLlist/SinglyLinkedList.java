@@ -75,7 +75,7 @@ public class SinglyLinkedList<E> {
 
     }
 
-
+//class for creating node
     class Node<E> {
         private E data;
         private Node<E> next;

@@ -2,6 +2,7 @@ package SinglylLinkedLlist;
 
 public class Main {
     public static void main(String[] args) {
+        //adding
         SinglyLinkedList<Integer> list=new SinglyLinkedList<Integer>();
         SinglyLinkedList<String> list2=new SinglyLinkedList<String>();
         list.addFirst(10);
